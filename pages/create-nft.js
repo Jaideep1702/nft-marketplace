@@ -5,7 +5,7 @@ import { create as ipfsHttpClient } from 'ipfs-http-client'
 import { useRouter } from 'next/router'
 import Web3Modal from 'web3modal'
 
-const client = ipfsHttpClient('https://polygon-mumbai.infura.io/v3/4ebdb29fafd54e7b880e06a6902109b4')
+const client = ipfsHttpClient('https://polygon-mumbai.infura.io/v3/apikey')
 
 import {
   marketplaceAddress
